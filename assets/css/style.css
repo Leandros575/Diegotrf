@@ -58,3 +58,7 @@ footer {
 .row .col:nth-child(8) {
   background-color: rgb(78, 192, 103);
 }
+
+.seguranca {
+  text-align: center;
+}
