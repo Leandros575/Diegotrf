@@ -7,12 +7,13 @@ header{
 header .row {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
+  padding: 5px;
   align-items: center;
   box-sizing: border-box;
   width: 100%;
   border-bottom: 1px solid #ffffff;
   margin: 0 15px;
+  max-width: ;
 }
   
 ul li{
@@ -31,12 +32,17 @@ header li {
   margin: 1%;
   width: 0%;
 }
-
-header img {
-  max-width: 100%;
-}
-  
-
 /* Fim da sessão*/
+/* Inicio da sessão seguranca*/
+.seguranca .col2 h1{
+  text-align: center;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  min-height: 50vh;
+}
 
+
+
+
+/* Fim  da sessão seguranca*/
 
