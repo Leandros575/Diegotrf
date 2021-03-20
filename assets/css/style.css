@@ -59,7 +59,43 @@ footer {
   background-color: rgb(78, 192, 103);
 }
 /*inicio da sessão*/
-header .row {
+header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
 }
-/*fim da sessão */
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header li {
+  font-family: "Open Sans";
+  margin: 0 15px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  font-size: 15px;
+}
+
+header li:first-child {
+  margin-left: 0;
+}
+
+header li :last-child {
+  margin-right: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+header img {
+  float: left;
+}
+
+header li a Início {
+  background-color: red;
+}
+/*Fim  da sessão*/
