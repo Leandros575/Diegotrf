@@ -95,7 +95,14 @@ header img {
   float: left;
 }
 
-header li a Início {
-  background-color: red;
-}
 /*Fim  da sessão*/
+
+/*Inicio da sessão */
+
+.seguranca {
+  text-align: center;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+
+/* Fim da sessão */ ;
