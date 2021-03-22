@@ -95,6 +95,10 @@ header img {
   float: left;
 }
 
+li {
+  list-style: none;
+}
+
 /*Fim  da sessão*/
 
 /*Inicio da sessão */
@@ -102,7 +106,24 @@ header img {
 .seguranca {
   text-align: center;
   background-image: url(../img/background.jpg);
-  background-size: cover;
+  font-size: 15;
+}
+
+.seguranca .texto {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 5em;
+  line-height: 110%;
+  margin: 0%;
+  color: #ffffff;
+  white-space: pre-line;
+}
+
+.seguranca p {
+  font-family: opens Sans;
+  background-color: red;
+  color: #ffffff;
+  font-size: 125;
 }
 
 /* Fim da sessão */ ;
