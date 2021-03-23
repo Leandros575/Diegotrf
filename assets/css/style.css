@@ -107,6 +107,8 @@ li {
   text-align: center;
   background-image: url(../img/background.jpg);
   font-size: 15;
+  background-size: contain;
+  min-height: 100vh;
 }
 
 .seguranca .texto {
@@ -121,9 +123,14 @@ li {
 
 .seguranca p {
   font-family: opens Sans;
-  background-color: red;
   color: #ffffff;
-  font-size: 125;
+  font-size: 1.4rem;
+  letter-spacing: 0.1px;
+  line-height: 125%;
+}
+
+.row .col {
+  background-color: red;
 }
 
 /* Fim da sessão */ ;
