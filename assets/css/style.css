@@ -91,10 +91,6 @@ ul {
   list-style: none;
 }
 
-header img {
-  float: left;
-}
-
 li {
   list-style: none;
 }
@@ -102,23 +98,22 @@ li {
 /*Fim  da sessão*/
 
 /*Inicio da sessão */
-
 .seguranca {
-  text-align: center;
+  color: white;
+  height: 500px;
   background-image: url(../img/background.jpg);
-  font-size: 15;
-  background-size: contain;
-  min-height: 100vh;
+  background-position: center;
+  margin-top: -50px;
 }
 
 .seguranca .texto {
   font-family: Open Sans;
   font-weight: 600;
-  font-size: 5em;
   line-height: 110%;
   margin: 0%;
   color: #ffffff;
   white-space: pre-line;
+  text-align: center;
 }
 
 .seguranca p {
@@ -128,9 +123,10 @@ li {
   letter-spacing: 0.1px;
   line-height: 125%;
 }
+/* Fim da sessão */
 
-.row .col {
-  background-color: red;
+/*Inicio da sessão */
+.compromisso {
 }
 
-/* Fim da sessão */ ;
+/* Fim da sessão */
