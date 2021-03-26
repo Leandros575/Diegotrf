@@ -86,16 +86,16 @@ header li {
 
 /*Fim  da sessão*/
 
-/*Inicio da sessão */
+/*Inicio da sessão seguranca */
 .seguranca {
   color: white;
   height: 500px;
   background-image: url(../img/background.jpg);
   background-position: center;
-  margin-top: -50px;
+  margin-top: -100px;
 }
 
-.seguranca .texto {
+.seguranca .texto h1 {
   font-family: Open Sans;
   font-weight: 600;
   line-height: 110%;
@@ -103,20 +103,43 @@ header li {
   color: #ffffff;
   white-space: pre-line;
   text-align: center;
+  font-size: 5em;
+  padding: 0 120px;
 }
 
-.seguranca p {
+.seguranca .texto p {
   font-family: opens Sans;
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.4em;
   letter-spacing: 0.1px;
   line-height: 125%;
+  text-align: center;
 }
-/* Fim da sessão */
+
+.seguranca .row {
+  margin-top: 29px;
+}
+
+.seguranca .row .col {
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+  font-family: open-sans;
+  letter-spacing: 0.1px;
+  line-height: 125%;
+  color: #1e1c27;
+}
+
+.seguranca .row .col p {
+  color: white;
+}
+/* Fim da sessão seguranca */
 
 /*Inicio da sessão compromisso */
+.compromisso {
+  margin-top: 457px;
+}
+
 .compromisso .col h1 {
-  background-color: red;
 }
 
 /* Fim da sessão compromisso */
