@@ -87,7 +87,7 @@ header li {
 /*Fim  da sessão*/
 
 /*Inicio da sessão seguranca */
-.seguranca {
+#seguranca {
   color: white;
   height: 500px;
   background-image: url(../img/background.jpg);
@@ -95,7 +95,7 @@ header li {
   margin-top: -100px;
 }
 
-.seguranca .texto h1 {
+#seguranca .texto h1 {
   font-family: Open Sans;
   font-weight: 600;
   line-height: 110%;
@@ -104,23 +104,25 @@ header li {
   white-space: pre-line;
   text-align: center;
   font-size: 5em;
-  padding: 0 120px;
+  padding: 0 122px;
 }
 
-.seguranca .texto p {
+#seguranca .texto p {
   font-family: opens Sans;
   color: #ffffff;
   font-size: 1.4em;
   letter-spacing: 0.1px;
   line-height: 125%;
   text-align: center;
+  font-weight: 600;
 }
 
-.seguranca .row {
+#seguranca .row {
   margin-top: 29px;
+  justify-content: space-around;
 }
 
-.seguranca .row .col {
+#seguranca .row .col {
   text-align: center;
   margin: 0px 0px 20px 0px;
   font-family: open-sans;
@@ -129,17 +131,77 @@ header li {
   color: #1e1c27;
 }
 
-.seguranca .row .col p {
-  color: white;
+#seguranca .container .row .col.cards h1 {
+  font-family: Open Sans;
+  letter-spacing: 0.1px;
+  line-height: 125%;
+  padding: 10px;
+  font-size: 1.4em;
 }
-/* Fim da sessão seguranca */
+
+#seguranca .container .row .col.cards h2 {
+  font-family: Open Sans;
+  letter-spacing: 0.1px;
+  line-height: 125%;
+  font-size: 1.4em;
+}
+#seguranca .container .row .col.cards h3 {
+  font-family: Open Sans;
+  letter-spacing: 0.1px;
+  line-height: 125%;
+  font-size: 1.4em;
+}
+
+#seguranca .container .row .col.cards p {
+  color: #7e8485;
+  padding: 27px;
+  font-size: 16px;
+}
+
+#seguranca .container .row .col.cards {
+  width: 365px;
+  padding: 0%;
+}
+
+#seguranca .container .row .col.cards img {
+  width: 100%;
+}
+
+/* Fim da sessão#seguranca */
 
 /*Inicio da sessão compromisso */
-.compromisso {
+#compromisso {
   margin-top: 457px;
 }
 
-.compromisso .col h1 {
+#compromisso .container .row .coltexto {
+}
+
+#compromisso .container .row .colimg {
+  background-color: red;
+}
+
+#compromisso .container .row .coltexto h1 {
+  font-family: "open Sans";
+  font-weight: 300;
+  letter-spacing: -0.1px;
+  font-size: 3em;
+  line-height: 110%;
+}
+
+#compromisso .container .row .coltexto p {
+  margin: 0 0 1.3em;
+  letter-spacing: 0.1px;
+}
+
+#compromisso .container .row .coltexto strong {
+  letter-spacing: 0.1px;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+#compromisso .container .row {
+  width: 100%;
 }
 
 /* Fim da sessão compromisso */
