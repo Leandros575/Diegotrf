@@ -135,21 +135,8 @@ header li {
   font-family: Open Sans;
   letter-spacing: 0.1px;
   line-height: 125%;
+  font-size: 1.4em;
   padding: 10px;
-  font-size: 1.4em;
-}
-
-#seguranca .container .row .col.cards h2 {
-  font-family: Open Sans;
-  letter-spacing: 0.1px;
-  line-height: 125%;
-  font-size: 1.4em;
-}
-#seguranca .container .row .col.cards h3 {
-  font-family: Open Sans;
-  letter-spacing: 0.1px;
-  line-height: 125%;
-  font-size: 1.4em;
 }
 
 #seguranca .container .row .col.cards p {
@@ -190,11 +177,17 @@ header li {
 }
 
 #compromisso .container .row .coltexto p {
+  font-family: opens Sans;
+  color: #7e8485;
   margin: 0 0 1.3em;
   letter-spacing: 0.1px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 150%;
 }
 
 #compromisso .container .row .coltexto strong {
+  color: #1e1c27;
   letter-spacing: 0.1px;
   font-size: 15px;
   line-height: 150%;
