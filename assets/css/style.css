@@ -178,6 +178,7 @@ header li {
 }
 
 #compromisso .container .row .coltexto {
+  background-color: red;
 }
 
 #compromisso .container .row .colimg {
