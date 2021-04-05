@@ -57,12 +57,9 @@ footer {
 .row .col:nth-child(8) {
   background-color: rgb(78, 192, 103);
 }
-
-ul {
-  list-style: none;
-}
 */
-/*inicio da sessão*/
+
+/*inicio da sessão header*/
 header {
   display: flex;
   justify-content: space-between;
@@ -83,19 +80,27 @@ header li {
   font-size: 15px;
 }
 
-/*Fim  da sessão*/
+header .container .row .col .cons ul {
+  list-style: none;
+}
+
+/*Fim  da sessão header*/
 
 /*Inicio da sessão seguranca */
 #seguranca {
   color: white;
   height: 500px;
-  background-image: url(../img/background.jpg);
-  background-position: center;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: -100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(..//img/background.jpg) no-repeat;
 }
 
 #seguranca .texto h1 {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 600;
   line-height: 110%;
   margin: 0%;
@@ -107,7 +112,7 @@ header li {
 }
 
 #seguranca .texto p {
-  font-family: opens Sans;
+  font-family: "opens Sans";
   color: #ffffff;
   font-size: 1.4em;
   letter-spacing: 0.1px;
@@ -124,7 +129,7 @@ header li {
 #seguranca .row .col {
   text-align: center;
   margin: 0px 0px 20px 0px;
-  font-family: open-sans;
+  font-oamily: open-sans;
   letter-spacing: 0.1px;
   line-height: 125%;
   color: #1e1c27;
@@ -170,7 +175,7 @@ header li {
   width: 100%;
 }
 
-/* Fim da sessão#seguranca */
+/* Fim da sessão #seguranca */
 
 /*Inicio da sessão compromisso */
 #compromisso {
@@ -193,7 +198,7 @@ header li {
 }
 
 #compromisso .container .row .coltexto p {
-  font-family: opens Sans;
+  font-family: "opens Sans";
   color: #7e8485;
   margin: 0 0 1.3em;
   letter-spacing: 0.1px;
@@ -214,3 +219,45 @@ header li {
 }
 
 /* Fim da sessão compromisso */
+
+/*Inicio da sessão diferenciados */
+
+.diferenciados {
+  background-color: rgb(39, 52, 69, 1);
+  padding-bottom: 80px;
+  border-top: 20px solid rgb(230, 230, 230, 1);
+  margin: -8px;
+}
+
+.diferenciados .container .row .col h1 {
+  font-family: "open Sans";
+  font-weight: 300;
+  letter-spacing: -0.1px;
+  font-size: 3em;
+  line-height: 110%;
+  color: #ffffff;
+}
+
+.diferenciados .container .row .col h2 {
+  font-family: "open Sans";
+  font-weight: normal;
+  letter-spacing: 0.1px;
+  line-height: 140%;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.diferenciados .container .row .col h3 {
+  font-family: "open Sans";
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: 125%;
+  font-size: 1.4em;
+  margin: 0px 0px 20px 0px;
+}
+
+.diferenciados .container .row .col .card {
+  background-color: red;
+  padding-top: 25%;
+}
+/* Fim da sessão diferenciados */
