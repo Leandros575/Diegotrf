@@ -91,11 +91,11 @@ header .container .row .col .cons ul {
   color: white;
   height: 500px;
   background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   margin-top: -100px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/background.jpg) fixed;
+    url(../img/post-07.jpg) fixed;
+  background-size: 100%;
+  letter-spacing: 0.1px;
 }
 
 #seguranca .texto h1 {
@@ -128,7 +128,7 @@ header .container .row .col .cons ul {
 #seguranca .row .col {
   text-align: center;
   margin: 0px 0px 20px 0px;
-  font-oamily: open-sans;
+  font-family: open-sans;
   letter-spacing: 0.1px;
   line-height: 125%;
   color: #1e1c27;
