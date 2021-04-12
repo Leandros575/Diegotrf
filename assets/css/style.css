@@ -1,3 +1,6 @@
+body {
+  margin: 0%;
+}
 section,
 header,
 footer {
@@ -61,10 +64,6 @@ footer {
 
 /*inicio da sessão header*/
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px;
 }
 
 header ul {
@@ -84,6 +83,14 @@ header .container .row .col .cons ul {
   list-style: none;
 }
 
+header .container .row .col img {
+  margin-top: -30px;
+}
+
+header .container .col .cons ul {
+  margin-top: -5px;
+}
+
 /*Fim  da sessão header*/
 
 /*Inicio da sessão seguranca */
@@ -96,6 +103,7 @@ header .container .row .col .cons ul {
     url(../img/post-07.jpg) fixed;
   background-size: 100%;
   letter-spacing: 0.1px;
+  padding: 100px 20px 120px;
 }
 
 #seguranca .texto h1 {
@@ -182,10 +190,11 @@ header .container .row .col .cons ul {
 }
 
 #compromisso .container .row .coltexto {
-  background-color: red;
 }
 
-#compromisso .container .row .colimg {
+#compromisso .container .row .colimg img {
+  background-color: red;
+  border-left: 3px solid rgba(39, 52, 69, 1);
 }
 
 #compromisso .container .row .coltexto h1 {
@@ -215,6 +224,25 @@ header .container .row .col .cons ul {
 
 #compromisso .container .row {
   width: 100%;
+}
+
+#compromisso .container .coltexto .saibamais span {
+  background-color: red;
+  background-image: none;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  line-height: 100%;
+  border: solid 1px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  bottom: -1411px;
+  left: 76px;
+  border-left: 3px solid rgba(39, 52, 69, 1);
+}
+
+#compromisso .container .coltexto .saibamais {
+  background-color: black;
 }
 
 /* Fim da sessão compromisso */
@@ -258,5 +286,8 @@ header .container .row .col .cons ul {
 .diferenciados .container .row .col .card {
   background-color: red;
   padding-top: 25%;
+}
+
+.diferenciados .row {
 }
 /* Fim da sessão diferenciados */
