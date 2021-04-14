@@ -239,10 +239,31 @@ header .container .col .cons ul {
   bottom: -1170px;
   left: 76px;
   border-left: 3px solid rgba(39, 52, 69, 1);
+  color: #ffffff;
 }
 
 #compromisso .container .coltexto .saibamais {
   background-color: black;
+}
+
+#compromisso .container .row .colimg .row .col h1 {
+  font-family: "opens Sans";
+  color: #1e1c27;
+  margin: 0px 0px 20px 0px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: 125%;
+  font-size: 1.4em;
+}
+
+#compromisso .container .row .colimg .row .col p{
+  font-family: "opens Sans";
+  color: #7e8485;
+  margin: 0 0 1,3em;
+  letter-spacing: 0.1px;
+  font-size: 15px;
+  line-height: 150%;
+  padding: 0;
 }
 
 /* Fim da sessão compromisso */
