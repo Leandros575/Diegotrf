@@ -190,6 +190,7 @@ header .container .col .cons ul {
 }
 
 #compromisso .container .row .coltexto {
+  margin-right: 115px;
 }
 
 #compromisso .container .row .colimg img {
@@ -272,6 +273,7 @@ header .container .col .cons ul {
 
 .diferenciados {
   background-color: rgb(39, 52, 69, 1);
+  padding-top: 90px;
   padding-bottom: 80px;
   border-top: 20px solid rgb(230, 230, 230, 1);
   margin: -8px;
@@ -305,10 +307,12 @@ header .container .col .cons ul {
 }
 
 .diferenciados .container .row .col .card {
-  background-color: red;
+  background-color: #ffffff;
   padding-top: 25%;
 }
 
-.diferenciados .row {
+.diferenciados .container .row .col .card{
+  padding-bottom: 10px;
+  padding: 0px;
 }
 /* Fim da sessão diferenciados */
