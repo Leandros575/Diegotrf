@@ -314,15 +314,17 @@ header .container .col .cons ul {
   margin: 11%;
   text-align: center;
   padding-bottom: 21px;
+  position: relative;
+  right: 16px;
 }
 
 .diferenciados .container .row .col .card {
   background-color: #ffffff;
   padding-top: 25%;
-}
-
-.diferenciados .container .row .col .card{
+  border-left: 3px solid rgba(255, 26, 73, 1);
   padding-bottom: 10px;
   padding: 0px;
 }
+
+
 /* Fim da sessão diferenciados */
