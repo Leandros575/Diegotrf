@@ -236,7 +236,6 @@ header .container .col .cons ul {
   padding-right: 15px;
   line-height: 100%;
   border: solid 1px rgba(0, 0, 0, 0.05);
-  position: absolute;
   bottom: -1188px;
   left: 76px;
   border-left: 3px solid rgba(39, 52, 69, 1);
@@ -313,7 +312,7 @@ header .container .col .cons ul {
   margin-top: 10px;
   margin: 11%;
   text-align: center;
-  padding-bottom: 21px;
+  padding-bottom: 28px;
   position: relative;
   right: 16px;
 }
@@ -324,6 +323,25 @@ header .container .col .cons ul {
   border-left: 3px solid rgba(255, 26, 73, 1);
   padding-bottom: 10px;
   padding: 0px;
+}
+
+.novidades {
+  background-color: rgba(247, 247, 247, 1);
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+.novidades .container .row .col h1 {
+font-family: "open Sans";
+font-weight: 300;
+letter-spacing: -0.1px;
+font-size: 3em;
+line-height: 110%;
+}
+
+.novidades .container .row .col p {
+  font-size: 1.2em;
+  color: #1e1c27;
 }
 
 
