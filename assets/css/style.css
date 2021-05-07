@@ -412,18 +412,73 @@ footer {
 
 footer .container .row .col h1 {
   font-family: "open Sans";
-  background-color: red;
   margin: 2.5em 0 1.5em;
   font-size: 18px;
   color: #ffffff;
   letter-spacing: 0.1px;
   line-height: 125%;
-  text-transform: uppercase;
 }
 
 footer .container .row .col p1 {
-  background-color: red;
+  font-family: "open Sans";
+  position: relative;
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  font-weight: 900;
+  top: 10px;
 }
 
+footer .container .row .col p2 {
+  font-family: "open Sans";
+  position: relative;
+  font-size: 13px;
+  bottom: 6px;
+  color: #ffffff;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  font-weight: 900;
+}
+
+footer .container .row .col p3 { 
+font-family: "open Sans";
+position: relative;
+font-size: 13px;
+bottom: 6px;
+color: #ffffff;
+line-height: 150%;
+letter-spacing: 0,1px;
+font-weight: 900;
+}
+
+footer .container .row .col  p4 {
+  font-family: "open Sans";
+  color: #8b9094;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+footer .container .row .col  p5 {
+  font-family: "open Sans";
+  font-size: 13px;
+  color: #8b9094;
+  font-weight: normal;
+}
+
+footer .container .row .col  p6 {
+  font-family: "open Sans";
+  color: #8b9094;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+footer .container .row .col h2 {
+  font-family: "open Sans";
+  color: #ffffff;
+  font-size: 13px;
+  position: relative;
+  top: 6px;
+} 
 
 /* Fim da sessão diferenciados */
