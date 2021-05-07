@@ -325,10 +325,17 @@ header .container .col .cons ul {
   padding: 0px;
 }
 
+.film-slider .row { 
+  padding: 20px 0px 20px 0px;
+}
+
 .novidades {
   background-color: rgba(247, 247, 247, 1);
   padding-top: 90px;
   padding-bottom: 70px;
+  position: relative;
+  top: 48px;
+  margin: -28px;
 }
 
 .novidades .container .row .col h2 {
@@ -399,6 +406,8 @@ footer {
   background: none;
   background-color: #273445;
   border-top: 1px solid #273445;
+  position: relative;
+  top: 78px;
 }
 
 footer .container .row .col h1 {
@@ -412,6 +421,9 @@ footer .container .row .col h1 {
   text-transform: uppercase;
 }
 
+footer .container .row .col p1 {
+  background-color: red;
+}
 
 
 /* Fim da sessão diferenciados */
