@@ -408,19 +408,21 @@ footer {
   border-top: 1px solid #273445;
   position: relative;
   top: 78px;
+  text-align: left;
 }
 
 footer .container .row .col h1 {
-  font-family: "open Sans";
+  font-family: "Open Sans";
   margin: 2.5em 0 1.5em;
   font-size: 18px;
   color: #ffffff;
-  letter-spacing: 0.1px;
+  letter-spacing: 1.1px;
   line-height: 125%;
+  font-weight: 600;
 }
 
 footer .container .row .col p1 {
-  font-family: "open Sans";
+  font-family: "Open Sans";
   position: relative;
   font-size: 13px;
   color: #ffffff;
@@ -431,7 +433,7 @@ footer .container .row .col p1 {
 }
 
 footer .container .row .col p2 {
-  font-family: "open Sans";
+  font-family: "Open Sans";
   position: relative;
   font-size: 13px;
   bottom: 6px;
@@ -456,14 +458,14 @@ footer .container .row .col  p4 {
   font-family: "open Sans";
   color: #8b9094;
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 footer .container .row .col  p5 {
   font-family: "open Sans";
   font-size: 13px;
   color: #8b9094;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 footer .container .row .col  p6 {
@@ -471,6 +473,8 @@ footer .container .row .col  p6 {
   color: #8b9094;
   font-size: 13px;
   font-weight: normal;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 footer .container .row .col h2 {
@@ -480,5 +484,22 @@ footer .container .row .col h2 {
   position: relative;
   top: 6px;
 } 
+
+.row .col .fim span {
+  font-family: "Open Sans";
+  font-family: normal;
+  font-size: 13px;
+  line-height: 1.8em;
+  letter-spacing: 0.1px;
+}
+
+.Direitos    {
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #ffffff;
+  position: relative;
+  top: 2px;
+  letter-spacing: 0.1px;
+}
 
 /* Fim da sessão diferenciados */
