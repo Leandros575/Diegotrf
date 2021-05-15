@@ -64,14 +64,19 @@ footer {
 
 /*inicio da sessão header*/
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
 }
 
 header ul {
   display: flex;
   justify-content: flex-end;
+  list-style: none;
 }
 
-header li {
+header li  {
   font-family: "Open Sans";
   margin: 0 15px;
   font-weight: 600;
@@ -147,7 +152,7 @@ header .container .col .cons ul {
   letter-spacing: 0.1px;
   line-height: 125%;
   font-size: 15px;
-  padding: 0 74px;
+  padding: 0 86px;
   font-size: 1.4em;
   padding-bottom: 15px;
   padding-top: 25px;
@@ -157,10 +162,8 @@ header .container .col .cons ul {
   font-family: Open Sans;
   letter-spacing: 0.1px;
   line-height: 125%;
-  font-size: 15px;
-  padding: 0 31px;
   font-size: 1.4em;
-  padding-left: 25px;
+  padding-left: 37px;
   padding-bottom: 15px;
   padding-right: 25px;
   padding-top: 25px;
@@ -171,6 +174,7 @@ header .container .col .cons ul {
   padding: 27px;
   font-size: 16px;
   padding-top: 0%;
+  box-shadow: 10px 10px 15px #8080804a;;
 }
 
 #seguranca .container .row .col.cards {
@@ -202,8 +206,9 @@ header .container .col .cons ul {
   font-family: "open Sans";
   font-weight: 300;
   letter-spacing: -0.1px;
-  font-size: 3em;
+  font-size: 44px;
   line-height: 110%;
+  padding: 0px 0px 0px 3px;
 }
 
 #compromisso .container .row .coltexto p {
@@ -214,6 +219,9 @@ header .container .col .cons ul {
   font-size: 15px;
   font-weight: normal;
   line-height: 150%;
+  position: relative;
+  bottom: 21px;
+
 }
 
 #compromisso .container .row .coltexto strong {
@@ -221,6 +229,8 @@ header .container .col .cons ul {
   letter-spacing: 0.1px;
   font-size: 15px;
   line-height: 150%;
+  position: relative;
+  bottom: 21px;
 }
 
 #compromisso .container .row {
@@ -243,7 +253,7 @@ header .container .col .cons ul {
 }
 
 #compromisso .container .coltexto .saibamais {
-  padding: 30px 0px 0px 0px; 
+  padding: 5px 0px 0px 0px; 
 }
 
 #compromisso .container .row .colimg .row .col h1 {
@@ -493,6 +503,12 @@ footer .container .row .col h2 {
   letter-spacing: 0.1px;
 }
 
+.row .col .fim a {
+font-family: "Open Sans";
+ color: #ff1a49;
+ text-decoration: none;
+}
+
 .Direitos    {
   font-family: "Open Sans";
   font-size: 13px;
@@ -501,5 +517,11 @@ footer .container .row .col h2 {
   top: 2px;
   letter-spacing: 0.1px;
 }
+
+.film-slider {
+  background-color: red;
+}
+
+
 
 /* Fim da sessão diferenciados */

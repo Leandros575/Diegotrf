@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>clone layout</title>
+  <title>teste de js</title>
 </head>
 
 <body>
@@ -17,12 +17,12 @@
           <img src="./assets/img/logo.png" />
         </div>
         <div class="col">
-          <div class="cons">
+          <div id="cons">
             <ul>
-              <li><a href=""></a>Início</li>
-              <li><a href=""></a>Quem Somos</li>
-              <li><a href=""></a>Novidades</li>
-              <li><a href=""></a>Entre em contato</li>
+              <li><a href="#inicio"></a>Início</li>
+              <li><a href="#Quemsomos"></a>Quem Somos</li>
+              <li><a href="#Novidades"></a>Novidades</li>
+              <li><a href="#Entreemcontato"></a>Entre em contato</li>
             </ul>
           </div>
         </div>
@@ -290,6 +290,19 @@
       </div>
     </div>
   </footer>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("cons").style.top = "0";
+      } else {
+        document.getElementById("cons").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+
 </body>
 
 </html>
