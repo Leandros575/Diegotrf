@@ -18,7 +18,7 @@ footer {
   display: flex;
   justify-content: space-around;
 }
-
+/*
 .col {
   width: 100%;
   margin-bottom: 16px;
@@ -64,17 +64,24 @@ footer {
 
 /*inicio da sessão header*/
 header {
+  background-color: #f1f2f3;
   position: fixed;
   top: 0;
   width: 100%;
   transition: top 0.3s;
+  padding: 15px;
+  border-bottom: 1px solid #061448;
 }
 
 header ul {
   display: flex;
   justify-content: flex-end;
   list-style: none;
+  position: relative;
+  left: 137px;
+  top: 10px;
 }
+
 
 header li  {
   font-family: "Open Sans";
@@ -86,10 +93,12 @@ header li  {
 
 header .container .row .col .cons ul {
   list-style: none;
+  background-color: red;
 }
 
 header .container .row .col img {
-  margin-top: -30px;
+  position: relative;
+  right: 150px;
 }
 
 header .container .col .cons ul {
@@ -108,7 +117,8 @@ header .container .col .cons ul {
     url(../img/post-07.jpg) fixed;
   background-size: 100%;
   letter-spacing: 0.1px;
-  padding: 100px 20px 120px;
+  padding: 98px 20px 120px;
+  background-attachment: local;
 }
 
 #seguranca .texto h1 {
@@ -119,8 +129,10 @@ header .container .col .cons ul {
   white-space: pre-line;
   text-align: center;
   font-size: 5em;
-  padding: 0 122px;
+  padding: 88px 182px;
   margin-bottom: 0;
+  position: relative;
+  top: 29px;
 }
 
 #seguranca .texto p {
@@ -131,6 +143,8 @@ header .container .col .cons ul {
   line-height: 125%;
   text-align: center;
   font-weight: 600;
+  position: relative;
+  bottom: 92px;
 }
 
 #seguranca .row {
