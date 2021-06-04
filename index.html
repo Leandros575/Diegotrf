@@ -11,22 +11,25 @@
 
 <body>
   <header>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img src="./assets/img/logo.png" />
-        </div>
-        <div class="col">
-          <div id="cons">
-            <ul>
-              <li><a href="#inicio"></a>Início</li>
-              <li><a href="#Quemsomos"></a>Quem Somos</li>
-              <li><a href="#Novidades"></a>Novidades</li>
-              <li><a href="#Entreemcontato"></a>Entre em contato</li>
-            </ul>
+    <div id="navbar">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/img/logo.png" />
+          </div>
+          <div class="col">
+            <div id="cons">
+              <ul>
+                <li><a href="#inicio"></a>Início</li>
+                <li><a href="#Quemsomos"></a>Quem Somos</li>
+                <li><a href="#Novidades"></a>Novidades</li>
+                <li><a href="#Entreemcontato"></a>Entre em contato</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+    </div>
   </header>
 
   <section id="seguranca">
@@ -290,14 +293,15 @@
       </div>
     </div>
   </footer>
+
   <script>
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
       if (prevScrollpos > currentScrollPos) {
-        document.getElementById("cons").style.top = "0";
+        document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("cons").style.top = "-50px";
+        document.getElementById("navbar").style.top = "-96px";
       }
       prevScrollpos = currentScrollPos;
     }

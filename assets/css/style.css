@@ -62,8 +62,12 @@ footer {
 }
 */
 
+#navbar {
+}
+
 /*inicio da sessão header*/
-header {
+
+header #navbar {
   background-color: #f1f2f3;
   position: fixed;
   top: 0;
@@ -73,17 +77,17 @@ header {
   border-bottom: 1px solid #061448;
 }
 
-header ul {
+header #navbar ul {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   position: relative;
   left: 137px;
   top: 10px;
+  float: left;
 }
 
-
-header li  {
+header #navbar li  {
   font-family: "Open Sans";
   margin: 0 15px;
   font-weight: 600;
@@ -91,17 +95,17 @@ header li  {
   font-size: 15px;
 }
 
-header .container .row .col .cons ul {
+header #navbar .container .row .col .cons ul {
   list-style: none;
   background-color: red;
 }
 
-header .container .row .col img {
+header #navbar .container .row .col img {
   position: relative;
   right: 150px;
 }
 
-header .container .col .cons ul {
+header #navbar .container .col .cons ul {
   margin-top: -5px;
 }
 
@@ -112,7 +116,7 @@ header .container .col .cons ul {
   color: white;
   height: 500px;
   background-position: center center;
-  margin-top: -100px;
+  margin-top: -241px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/post-07.jpg) fixed;
   background-size: 100%;
@@ -133,18 +137,19 @@ header .container .col .cons ul {
   margin-bottom: 0;
   position: relative;
   top: 29px;
+  letter-spacing: 2.1px;
 }
 
 #seguranca .texto p {
   font-family: "opens Sans";
   color: #ffffff;
   font-size: 21px;
-  letter-spacing: 0.1px;
+  letter-spacing: 1.1px;
   line-height: 125%;
   text-align: center;
   font-weight: 600;
   position: relative;
-  bottom: 92px;
+  bottom: 63px;
 }
 
 #seguranca .row {
@@ -204,7 +209,7 @@ header .container .col .cons ul {
 
 /*Inicio da sessão compromisso */
 #compromisso {
-  margin-top: 457px;
+  margin-top: 543px;
 }
 
 #compromisso .container .row .coltexto {
