@@ -191,14 +191,14 @@ header #navbar .container .col .cons ul {
 #seguranca .container .row .col.cards p {
   color: #7e8485;
   padding: 27px;
-  font-size: 16px;
+  font-size: 17px;
   padding-top: 0%;
-  box-shadow: 10px 10px 15px #8080804a;;
 }
 
 #seguranca .container .row .col.cards {
   width: 365px;
   padding: 0%;
+  box-shadow: 10px 10px 15px #8080804a;;
 }
 
 #seguranca .container .row .col.cards img {
