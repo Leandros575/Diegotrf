@@ -68,13 +68,12 @@ footer {
 /*inicio da sessão header*/
 
 header #navbar {
-  background-color: #f1f2f3;
+  background-color: #ffffff;
   position: fixed;
   top: 0;
   width: 100%;
   transition: top 0.3s;
   padding: 15px;
-  border-bottom: 1px solid #061448;
 }
 
 header #navbar ul {
@@ -97,7 +96,6 @@ header #navbar li  {
 
 header #navbar .container .row .col .cons ul {
   list-style: none;
-  background-color: red;
 }
 
 header #navbar .container .row .col img {
@@ -217,8 +215,14 @@ header #navbar .container .col .cons ul {
 }
 
 #compromisso .container .row .colimg img {
-  background-color: red;
   border-left: 3px solid rgba(39, 52, 69, 1);
+}
+
+#compromisso .container .row .colimg1 img {
+  
+}
+
+#compromisso .container .row .colimg2 img {
 }
 
 #compromisso .container .row .coltexto h1 {
