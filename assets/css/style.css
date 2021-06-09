@@ -218,11 +218,10 @@ header #navbar .container .col .cons ul {
   border-left: 3px solid rgba(39, 52, 69, 1);
 }
 
-#compromisso .container .row .colimg1 img {
-  
+#compromisso .container .row .colimg1  {
 }
 
-#compromisso .container .row .colimg2 img {
+#compromisso .container .row .colimg2 {
 }
 
 #compromisso .container .row .coltexto h1 {
@@ -239,10 +238,9 @@ header #navbar .container .col .cons ul {
   color: #7e8485;
   margin: 0 0 1.3em;
   letter-spacing: 0.1px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: normal;
   line-height: 150%;
-  position: relative;
   bottom: 21px;
 
 }
@@ -250,7 +248,7 @@ header #navbar .container .col .cons ul {
 #compromisso .container .row .coltexto strong {
   color: #1e1c27;
   letter-spacing: 0.1px;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 150%;
   position: relative;
   bottom: 21px;
