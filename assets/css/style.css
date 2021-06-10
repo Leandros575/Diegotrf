@@ -214,35 +214,34 @@ header #navbar .container .col .cons ul {
   margin-right: 115px;
 }
 
-#compromisso .container .row .colimg img {
+#compromisso .container .row .colimg1 img {
   border-left: 3px solid rgba(39, 52, 69, 1);
-}
-
-#compromisso .container .row .colimg1  {
+  padding: 14px 0px 0px 0px;
 }
 
 #compromisso .container .row .colimg2 {
+  padding: 0px 0px 0px 14px;
 }
 
 #compromisso .container .row .coltexto h1 {
   font-family: "open Sans";
   font-weight: 300;
   letter-spacing: -0.1px;
-  font-size: 44px;
+  font-size: 46px;
   line-height: 110%;
-  padding: 0px 0px 0px 3px;
+  padding: 0px 0px 0px 1px;
 }
 
 #compromisso .container .row .coltexto p {
   font-family: "opens Sans";
   color: #7e8485;
-  margin: 0 0 1.3em;
+  margin: 0px -38px 10px -6px;
   letter-spacing: 0.1px;
   font-size: 17px;
   font-weight: normal;
   line-height: 150%;
   bottom: 21px;
-
+  padding: 0px 0px 0px 49px;
 }
 
 #compromisso .container .row .coltexto strong {
