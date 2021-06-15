@@ -225,17 +225,17 @@ header #navbar .container .col .cons ul {
 #compromisso .container .row .coltexto h1 {
   font-family: "open Sans";
   font-weight: 300;
-  letter-spacing: -0.1px;
-  font-size: 46px;
+  letter-spacing: 1.1px;
+  font-size: 3em;
   line-height: 110%;
   padding: 0px 0px 1px 38px;
-  margin: -22px 6px 0px 0px;
+  margin: -22px -62px 10px 0px;
 }
 
 #compromisso .container .row .coltexto p {
   font-family: "opens Sans";
   color: #7e8485;
-  margin: 0px -38px 10px -6px;
+  margin: 16px -40px 10px -6px;
   letter-spacing: 0.1px;
   font-size: 17px;
   font-weight: normal;
@@ -250,7 +250,7 @@ header #navbar .container .col .cons ul {
   font-size: 17px;
   line-height: 150%;
   bottom: 21px;
-  padding: 0px 1px 0px 41px;  
+  padding: 10px 1px 0px 41px;  
   margin: 0px -62px 0px 0px;
 }
 
@@ -275,9 +275,9 @@ header #navbar .container .col .cons ul {
 }
 
 #compromisso .container .row .colimg .row .col h1 {
-  font-family: "opens Sans";
+  font-family: "Opens Sans";
   color: #1e1c27;
-  margin: 0px 0px 20px 0px;
+  margin: 16px 0px 20px 0px;
   font-weight: 600;
   letter-spacing: 0.1px;
   line-height: 125%;
@@ -289,9 +289,9 @@ header #navbar .container .col .cons ul {
   color: #7e8485;
   margin: 0 0 1,3em;
   letter-spacing: 0.1px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 150%;
-  padding: 0;
+  padding: 0px 33px 0px 0px;
 }
 
 /* Fim da sessão compromisso */
@@ -300,8 +300,8 @@ header #navbar .container .col .cons ul {
 
 .diferenciados {
   background-color: rgb(39, 52, 69, 1);
-  padding-top: 90px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 95px;
   border-top: 20px solid rgb(230, 230, 230, 1);
   margin: -8px;
 }
@@ -325,7 +325,7 @@ header #navbar .container .col .cons ul {
   color: #ffffff;
   font-size: 1.2em;
   padding: 0px 0px 0px 0px;
-  margin:  0px 0px 92px 0px;
+  margin:  0px 0px 70px 0px;
 }
 
 .diferenciados .container .row .col h3 {
@@ -343,17 +343,20 @@ header #navbar .container .col .cons ul {
   margin-top: 10px;
   margin: 11%;
   text-align: center;
-  padding-bottom: 28px;
-  position: relative;
-  right: 16px;
+  padding: 0px 0px 28px 0px;
+  margin: 36px 55px 0px 24px;
+  color: #7e8485;
 }
 
 .diferenciados .container .row .col .card {
   background-color: #ffffff;
-  padding-top: 25%;
   border-left: 3px solid rgba(255, 26, 73, 1);
-  padding-bottom: 10px;
-  padding: 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 8px 0px 9px;
+}
+
+.diferenciados .container .row .col .card img {
+  width: 100%;
 }
 
 .film-slider .row { 
