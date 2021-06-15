@@ -359,8 +359,13 @@ header #navbar .container .col .cons ul {
   width: 100%;
 }
 
-.film-slider .row { 
+.film-slider .autoplay .row { 
   padding: 20px 0px 20px 0px;
+}
+
+.film-slider .autoplay {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .novidades {
